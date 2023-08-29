@@ -34,10 +34,16 @@ a2bcb5e Prepare to delete and move
 ```
 
 3. Выполните `git checkout` по хешу найденного коммита.
-```git checkout a2bcb5e```
+```
+git checkout a2bcb5e
+```
 
 4. Создайте новую ветку `fix` базируясь на этом коммите `git switch -c fix`.
-```git switch -c fix```
+```
+git switch -c fix
+```
 
 5. Отправьте новую ветку в репозиторий на гитхабе `git push -u origin fix`.
-```git push -u origin fix```
+```
+git push -u origin fix
+```
