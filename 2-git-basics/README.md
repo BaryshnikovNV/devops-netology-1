@@ -21,3 +21,23 @@ git push --tags
 ```
 
 ---
+
+## Задание 3. Ветки
+
+1. Переключитесь обратно на ветку `main`, которая должна быть связана с веткой `main` репозитория на `github`.
+```git checkout origin/main```
+
+2. Посмотрите лог коммитов и найдите хеш коммита с названием `Prepare to delete and move`, который был создан в пределах предыдущего домашнего задания.
+```
+git log --oneline
+a2bcb5e Prepare to delete and move
+```
+
+3. Выполните `git checkout` по хешу найденного коммита.
+```git checkout a2bcb5e```
+
+4. Создайте новую ветку `fix` базируясь на этом коммите `git switch -c fix`.
+```git switch -c fix```
+
+5. Отправьте новую ветку в репозиторий на гитхабе `git push -u origin fix`.
+```git push -u origin fix```
