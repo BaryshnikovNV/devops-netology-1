@@ -2,7 +2,7 @@
 
 Hello world!
 
-В каталоге [terraform](https://github.com/BaryshnikovNV/devops-netology-1/blob/main/1-git-vcs/terraform) создан файл `.gitignore` с конфигурацией [Terraform.gitignore](https://github.com/BaryshnikovNV/devops-netology-1/blob/main/1-git-vcs/terraform/Terraform.gitignore). В результате внутри каталога terraform git не будет учитывать любые изменения для файлов/каталогов:
+В каталоге [terraform](https://github.com/BaryshnikovNV/version-control-systems/blob/main/1-git-vcs/terraform) создан файл `.gitignore` с конфигурацией [Terraform.gitignore](https://github.com/BaryshnikovNV/version-control-systems/blob/main/1-git-vcs/terraform/Terraform.gitignore). В результате внутри каталога terraform git не будет учитывать любые изменения для файлов/каталогов:
 
 * Все подкаталоги `.terraform`.
 * Файлы с расширением `.tfstate` и `.tfstate.*`.
